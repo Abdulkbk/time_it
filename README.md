@@ -10,8 +10,11 @@ Get time of different cities from all over the world
 <img src="/assets/snapshots/home-screen.png" width="300" height="500">
 
 #### Location Page
-![Location Screen](/assets/snapshots/location_screen.png "Location Screen, built with Flutter")
 
+[//]: # (![Location Screen]&#40;/assets/snapshots/location_screen.png "Location Screen, built with Flutter"&#41;)
+<img src="/assets/snapshots/location_screen.png" width="300" height="500">
 
 #### Loading Screen
-![Loading Screen](/assets/snapshots/loading_screen.png "Loading Screen, built with Flutter")
+
+[//]: # (![Loading Screen]&#40;/assets/snapshots/loading_screen.png "Loading Screen, built with Flutter"&#41;)
+<img src="/assets/snapshots/loading_screen.png" width="300" height="500">
