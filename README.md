@@ -5,7 +5,9 @@ Get time of different cities from all over the world
 ## Pages
 
 #### Home Page
-![Home Screen](/assets/snapshots/home-screen.png "Home Screen, built with Flutter")
+
+[//]: # (![Home Screen]&#40;/assets/snapshots/home-screen.png "Home Screen, built with Flutter"&#41;)
+<img src="/assets/snapshots/home-screen.png" width="200" height="100">
 
 #### Location Page
 ![Location Screen](/assets/snapshots/location_screen.png "Location Screen, built with Flutter")
