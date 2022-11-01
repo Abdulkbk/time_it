@@ -15,7 +15,14 @@ class _ChooseLocationState extends State<ChooseLocation> {
   List<TimeService> locations = [
     TimeService(location: 'London', flag: 'uk.png', url: 'Europe/London'),
     TimeService(location: 'Paris', flag: 'france.png', url: 'Europe/Paris'),
+    TimeService(location: 'Berlin', flag: 'germany.png', url: 'Europe/Berlin'),
     TimeService(location: 'Lagos', flag: 'nigeria.png', url: 'Africa/Lagos'),
+    TimeService(location: 'Cairo', flag: 'egypt.png', url: 'Africa/Cairo'),
+    TimeService(location: 'Nairobi', flag: 'kenya.png', url: 'Africa/Nairobi'),
+    TimeService(location: 'New York', flag: 'usa.png', url: 'America/New_York'),
+    TimeService(location: 'Toronto', flag: 'canada.png', url: 'America/Toronto'),
+    TimeService(location: 'Riyadh', flag: 'saudi.png', url: 'Asia/Riyadh'),
+    TimeService(location: 'Shanghai', flag: 'china.png', url: 'Asia/Shanghai'),
   ];
 
   void updateTime(index) async {
@@ -56,6 +63,9 @@ class _ChooseLocationState extends State<ChooseLocation> {
                   updateTime(index);
                 },
                 title: Text(locations[index].location),
+                leading: CircleAvatar(
+                  backgroundImage: AssetImage('assets/flags/${locations[index].flag}'),
+                ),
               ),
             ),
           );
