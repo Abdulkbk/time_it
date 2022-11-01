@@ -16,7 +16,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
 
-    data = ModalRoute.of(context)?.settings.arguments as Map;
+    data = data.isNotEmpty ? data : ModalRoute.of(context)!.settings.arguments as Map;
 
 
     return Scaffold(
@@ -34,7 +34,20 @@ class _HomeState extends State<Home> {
             child: Column(
               children: <Widget>[
                 TextButton.icon(
-                  onPressed: () {},
+                  onPressed: () async {
+                    dynamic result = await Navigator.pushNamed(context, '/location');
+                    print(data);
+                    if (result != null) {
+                      setState(() {
+                        data = {
+                          'time': result['time'],
+                          'location': result['location'],
+                          'flag': result['flag'],
+                        };
+                      });
+                    }
+                    print(data);
+                  },
                   icon: Icon(
                     Icons.edit_location,
                     color: Colors.grey[300],

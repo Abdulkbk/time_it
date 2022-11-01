@@ -24,7 +24,7 @@ class TimeService {
 
       time = DateFormat.jm().format(now);
 
-      print(time);
+      print('$time - $location - $url');
     }
     catch (e) {
       print(e);
