@@ -2,15 +2,14 @@
 
 Get time of different cities from all over the world
 
-## Getting Started
+## Pages
 
-This project is a starting point for a Flutter application.
+#### Home Page
+![Home Screen](/assets/snapshots/home-screen.png "Home Screen, built with Flutter")
 
-A few resources to get you started if this is your first Flutter project:
+#### Location Page
+![Location Screen](/assets/snapshots/location_screen.png "Location Screen, built with Flutter")
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### Loading Screen
+![Loading Screen](/assets/snapshots/loading_screen.png "Loading Screen, built with Flutter")
